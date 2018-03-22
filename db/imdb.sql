@@ -20,4 +20,4 @@ CREATE TABLE castings (
   star_id INT4 REFERENCES stars(id) ON DELETE CASCADE,
   movie_id INT4 REFERENCES movies(id) ON DELETE CASCADE,
   fee INT
-)
+);
